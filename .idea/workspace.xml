@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d054ca04-42ec-46cd-a386-e72ec8f8204d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/Event.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Event_large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Members.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Members_large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Olympiade.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Olympiade_large.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Programs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Programs_large.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/events.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/members.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/olympiade.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/programs.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
