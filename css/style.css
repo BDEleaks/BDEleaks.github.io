@@ -68,7 +68,7 @@
   }
 
   /* When you mouse over the container, fade in the overlay icon*/
-  .container:hover .overlay {
+  .box:hover .overlay {
 	opacity: 0.80;
   }
 
@@ -85,9 +85,9 @@
   }
 
   /* When you move the mouse over the icon, change color */
-  .fa-user:hover {
+  /* .fa-user:hover {
 	color: #eee;
-  }
+  } */
 
   /* Three columns side by side */
 .column {
@@ -116,7 +116,7 @@
   }
 
   /* Clear floats */
-  .container::after, .row::after {
+  .box::after, .row::after {
 	content: "";
 	clear: both;
 	display: table;
