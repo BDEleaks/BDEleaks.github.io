@@ -9,6 +9,9 @@
 	<script src="https://kit.fontawesome.com/2e12d02123.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="./css/bootstrap.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/uikit.min.css" />
+	<script src="js/uikit.min.js"></script>
+	<script src="js/uikit-icons.min.js"></script>
 </head>
 <body class="bg-light">
 	<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
@@ -43,30 +46,30 @@
 			<li data-target="#slides" data-slide-to="2"></li>
 			<li data-target="#slides" data-slide-to="3"></li>
 		</ol>
-		<div class="carousel-inner h-100">
-			<div class="h-100 carousel-item active">
-				<div class="img w-100 h-100" style="background-image: url('./img/olympiade.png');" alt="First slide"></div>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img class="w-100" src="./img/olympiade.png" alt="First slide" />
 				<div class="carousel-caption d-none d-md-block">
 					<!--<h5>...</h5>-->
 					<!--<p>...</p>-->
 				</div>
 			</div>
-			<div class="h-100 carousel-item">
-				<a href="#Members"><div class="img w-100 h-100" style="background-image: url('./img/members.png');" alt="Second slide"></div></a>
+			<div class="carousel-item">
+				<a href="#Event"><img class="w-100" src="./img/events.png" alt="Second slide" /></a>
 				<div class="carousel-caption d-none d-md-block">
 					<!--<h5>...</h5>-->
 					<!--<p>...</p>-->
 				</div>
 			</div>
-			<div class="h-100 carousel-item">
-				<a href="#Event"><div class="img w-100 h-100" style="background-image: url('./img/events.png');" alt="Third slide"></div></a>
+			<div class="carousel-item">
+				<a href="#Members"><img class="w-100" src="./img/members.png" alt="Third slide" /></a>
 				<div class="carousel-caption d-none d-md-block">
 					<!--<h5>...</h5>-->
 					<!--<p>...</p>-->
 				</div>
 			</div>
-			<div class="h-100 carousel-item">
-				<div class="img w-100 h-100" style="background-image: url('./img/programs.png');" alt="Fourth slide"></div>
+			<div class="carousel-item">
+				<img class="w-100" src="./img/programs.png" alt="Fourth slide" />
 				<div class="carousel-caption d-none d-md-block">
 					<!--<h5>...</h5>-->
 					<!--<p>...</p>-->
@@ -90,32 +93,52 @@
 					<h1>Nos <span class="text-primary">Évènements </span></h1>
 				</div>
 			</div>
-			<div class="row justify-content-between mt-5">
-				<div class="col-lg-4 col-md-6 col-12 mb-4">
-					<div class="w-100 bg-white">
-						<div class="card" style="background-image: url('https://www.gameparc86.fr/wp-content/uploads/2019/04/Groupe-lasermaxx.jpg');"></div>
-						<div class="p-4">
-							<h2 class="text-center">LaserGame</h2>
-						</div>
+			<div class="timeline">
+				<div class="contain left">
+					<div class="content">
+						<h2>29 Janvier</h2>
+						<p>Among Us</p>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 col-12 mb-4">
-					<div class="w-100 bg-white">
-						<div class="card" style="background-image: url('https://www.gameparc86.fr/wp-content/uploads/2019/04/Groupe-lasermaxx.jpg');"></div>
-						<div class="p-4">
-							<h2 class="text-center">LaserGame</h2>
-						</div>
+				<div class="contain right">
+					<div class="content">
+						<h2>27 Janvier</h2>
+						<p>Tournoi Smash</p>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 col-12 mb-4">
-					<div class="w-100 bg-white">
-						<div class="card" style="background-image: url('https://www.gameparc86.fr/wp-content/uploads/2019/04/Groupe-lasermaxx.jpg');"></div>
-						<div class="p-4">
-							<h2 class="text-center">LaserGame</h2>
-						</div>
+				<div class="contain left">
+					<div class="content">
+						<h2>27 Janvier</h2>
+						<p>Tournoi Echec</p>
 					</div>
 				</div>
 			</div>
+			<!--			<div class="row justify-content-between mt-5">-->
+<!--				<div class="col-lg-4 col-md-6 col-12 mb-4">-->
+<!--					<div class="w-100 bg-white">-->
+<!--						<div class="card" style="background-image: url('https://www.gameparc86.fr/wp-content/uploads/2019/04/Groupe-lasermaxx.jpg');"></div>-->
+<!--						<div class="p-4">-->
+<!--							<h2 class="text-center">LaserGame</h2>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--				<div class="col-lg-4 col-md-6 col-12 mb-4">-->
+<!--					<div class="w-100 bg-white">-->
+<!--						<div class="card" style="background-image: url('https://www.gameparc86.fr/wp-content/uploads/2019/04/Groupe-lasermaxx.jpg');"></div>-->
+<!--						<div class="p-4">-->
+<!--							<h2 class="text-center">LaserGame</h2>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--				<div class="col-lg-4 col-md-6 col-12 mb-4">-->
+<!--					<div class="w-100 bg-white">-->
+<!--						<div class="card" style="background-image: url('https://www.gameparc86.fr/wp-content/uploads/2019/04/Groupe-lasermaxx.jpg');"></div>-->
+<!--						<div class="p-4">-->
+<!--							<h2 class="text-center">LaserGame</h2>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			</div>-->
 		</section>
 		<section class="container" id="Members">
 			<div class="row mt-5">
@@ -175,6 +198,29 @@
 					</div>
 				</div>
 			  </div>
+		</section>
+		<section class="container" id="Olympiades">
+			<div class="row mt-5">
+				<div class="col-12 d-flex justify-content-center">
+					<h1>Les <span class="text-primary">Olympiades </span></h1>
+				</div>
+			</div>
+			<div>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolorem exercitationem illum ipsa ipsum laboriosam maiores perferendis quas temporibus vel. Ad commodi consequuntur dolorem, ducimus maxime possimus quia repudiandae rerum?
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolorum, facere? Blanditiis cumque deleniti eos error facilis, fuga hic illum maiores obcaecati perspiciatis quos ratione rem repudiandae sunt vel voluptatum.
+			</div>
+		</section>
+		<section class="container" id="Programs">
+			<div class="row mt-5">
+				<div class="col-12 d-flex justify-content-center">
+					<h1>Notre <span class="text-primary">Programme </span></h1>
+				</div>
+				<div>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium cupiditate distinctio dolore eligendi labore laudantium, necessitatibus officiis quibusdam! Adipisci aliquid expedita inventore maxime minima nisi pariatur ratione tempora tenetur voluptas!
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, necessitatibus voluptas? Accusamus ad, animi commodi consequatur corporis cumque distinctio expedita id laborum minus molestias odio, repudiandae totam unde voluptates voluptatibus?
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sapiente tenetur voluptatum! Aliquam, animi blanditiis eos et ex inventore molestiae nam nisi quaerat qui quo quos sed soluta sunt tempora.
+				</div>
+			</div>
 		</section>
 	</main>
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
