@@ -134,7 +134,7 @@ body {
 .timeline {
 	position: relative;
 	max-width: 1200px;
-	height: 400px;
+	height: 500px;
 	margin: 0 auto;
 	overflow-x: scroll;
 }
@@ -144,6 +144,7 @@ body {
 	content: '';
 	position: absolute;
 	width: 6px;
+	height: 1200px;
 	background-color: #70798c;
 	top: 0;
 	bottom: 0;
@@ -222,6 +223,16 @@ body {
 	background-color: white;
 	position: relative;
 	border-radius: 6px;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background-color: #f7f7f7;
+	margin-top: 50px;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
