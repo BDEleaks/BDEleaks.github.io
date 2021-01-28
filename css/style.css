@@ -1,34 +1,3 @@
-.card
-{
-	width: 100%;
-	padding-top: 100%;
-	background-size: cover;
-	background-position: center;
-}
-
-.card:not(.rounded-circle)
-{
-	padding-top: 60%;
-}
-
-.card + .overlay {
-	position: absolute;
-	top: 0;
-	left: 15px;
-	right: 15px;
-	bottom: 0;
-	opacity: 0;
-	pointer-events: none;
-	transition: all 0.5s ease;
-	background-color: rgba(255, 0, 0, 0.5);
-}
-
-.card:hover + .overlay, .card + .overlay:hover
-{
-	opacity: 1;
-	pointer-events: all;
-}
-
 html {
 	scroll-behavior: smooth;
 	scroll-padding-top: 70px;
@@ -256,4 +225,12 @@ body {
 	.right {
 		left: 0%;
 	}
+}
+
+.hide {
+	display: none;
+}
+
+.myDIV:hover + .hide {
+	display: block;
 }
