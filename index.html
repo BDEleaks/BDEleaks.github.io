@@ -16,281 +16,331 @@
   <script src="js/uikit-icons.min.js"></script>
 </head>
 <body class="bg-light">
-	<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
-		<a class="navbar-brand" href="#">BDE Leaks</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarNav">
-		  <ul class="navbar-nav">
-				<li class="nav-item active">
-					<a class="nav-link" href="#Home">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#Members">Membres</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#Olympiades">Olympiades</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#Event">Évènements</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#Program">Programme</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
-	<div id="slides" class="carousel slide" data-ride="carousel">
-		<ol class="carousel-indicators">
-			<li data-target="#slides" data-slide-to="0" class="active"></li>
-			<li data-target="#slides" data-slide-to="1"></li>
-			<li data-target="#slides" data-slide-to="2"></li>
-			<li data-target="#slides" data-slide-to="3"></li>
-		</ol>
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<a href="#Olympiades">
-					<picture>
-						<source srcset="./img/Olympiade.png"
-								media="(max-width: 400px)">
-						<img class="w-100" src="./img/Olympiade_large.png" alt="First slide" />
-					</picture>
-				</a>
-				<div class="carousel-caption d-none d-md-block">
-					<!--<h5>...</h5>-->
-					<!--<p>...</p>-->
-				</div>
-			</div>
-			<div class="carousel-item">
-				<a href="#Event">
-					<picture>
-						<source srcset="./img/Event.png"
-								media="(max-width: 400px)">
-						<img class="w-100" src="./img/Event_large.png" alt="First slide" />
-					</picture>
-				</a>
-				<div class="carousel-caption d-none d-md-block">
-					<!--<h5>...</h5>-->
-					<!--<p>...</p>-->
-				</div>
-			</div>
-			<div class="carousel-item">
-				<a href="#Members">
-					<picture>
-						<source srcset="./img/Members.png"
-								media="(max-width: 400px)">
-						<img class="w-100" src="./img/Members_large.png" alt="First slide" />
-					</picture>
-				</a>
-				<div class="carousel-caption d-none d-md-block">
-					<!--<h5>...</h5>-->
-					<!--<p>...</p>-->
-				</div>
-			</div>
-			<div class="carousel-item">
-				<a href="#Programs">
-					<picture>
-						<source srcset="./img/Programs.png"
-								media="(max-width: 400px)">
-						<img class="w-100" src="./img/Programs_large.png" alt="First slide" />
-					</picture>
-				</a>
-				<div class="carousel-caption d-none d-md-block">
-					<!--<h5>...</h5>-->
-					<!--<p>...</p>-->
-				</div>
-			</div>
-		</div>
-			<a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="sr-only">Previous</span>
-			</a>
-			<a class="carousel-control-next" href="#slides" role="button" data-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="sr-only">Next</span>
-			</a>
-		</div>
-	</div>
-		<section class="container" id="Event">
-			<div class="row mt-5">
-				<div class="col-12 d-flex justify-content-center">
-					<h1>Nos <span class="text-primary">Évènements </span></h1>
-				</div>
-			</div>
-			<div class="timeline">
-				<div class="contain left">
-					<div class="content">
-<!--						<h2>29 Janvier</h2>-->
-<!--						<p>Among Us</p>-->
-						<div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-							<div class="uk-card-media-left uk-cover-container uk-border-rounded">
-								<img src="./img/among_us.png" alt="" uk-cover>
-								<canvas width="600" height="400"></canvas>
-							</div>
-							<div>
-								<div class="uk-card-body">
-									<h3 class="uk-card-title">Media Left</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="contain right">
-					<div class="content">
-<!--						<h2>27 Janvier</h2>-->
-<!--						<p>Tournoi Smash</p>-->
-						<div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-							<div class="uk-flex-last@s uk-card-media-right uk-cover-container uk-border-rounded">
-								<img src="./img/smash.gif" alt="" uk-cover>
-								<canvas width="600" height="400"></canvas>
-							</div>
-							<div>
-								<div class="uk-card-body">
-									<h3 class="uk-card-title">Media Right</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="contain left">
-					<div class="content">
-<!--						<h2>27 Janvier</h2>-->
-<!--						<p>Tournoi Echec</p>-->
-						<div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-							<div class="uk-card-media-left uk-cover-container uk-border-rounded">
-								<img src="./img/chess.gif" alt="" uk-cover>
-								<canvas width="600" height="400"></canvas>
-							</div>
-							<div>
-								<div class="uk-card-body">
-									<h3 class="uk-card-title">Media Left</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="container" id="Members">
-			<div class="row mt-5">
-				<div class="col-12 d-flex justify-content-center">
-					<h1>Nos <span class="text-primary">Membres </span></h1>
-				</div>
-			</div>
-			<div class="uk-slider-container-offset" uk-slider>
-				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-				<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
-					<ul class="uk-slider-items uk-child-width-1-4@s uk-grid">
-						<li>
-							<div class="uk-border-rounded uk-card uk-card-small uk-card-default uk-card-hover">
-								<div class="uk-card-media-top uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
-									<img class="uk-border-rounded" src="img/large_coscialp2.jpg" alt="">
-									<div class="uk-position-center">
-										<span class="uk-transition-fade" uk-icon="icon: facebook; ratio: 4"></span>
-									</div>
-								</div>
-								<div class="uk-card-body">
-									<h3 class="uk-card-title">Corentin Scialpi</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="uk-border-rounded uk-card uk-card-small uk-card-default uk-card-hover">
-								<div class="uk-card-media-top uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
-									<div class="uk-card-media-top uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
-										<img class="uk-border-rounded" src="img/large_ldenis.jpg" alt="">
-										<div class="uk-position-center">
-											<span class="uk-transition-fade" uk-icon="icon: facebook; ratio: 4"></span>
-										</div>
-									</div>
-								</div>
-								<div class="uk-card-body">
-									<h3 class="uk-card-title">Laurine Denis</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="uk-border-rounded uk-card uk-card-small uk-card-default uk-card-hover">
-								<div class="uk-card-media-top uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
-									<img class="uk-border-rounded" src="img/large_lfourmau.jpg" alt="">
-									<div class="uk-position-center">
-										<span class="uk-transition-fade" uk-icon="icon: facebook; ratio: 4"></span>
-									</div>
-								</div>
-								<div class="uk-card-body">
-									<h3 class="uk-card-title">Loic Fourmau</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="uk-border-rounded uk-card uk-card-small uk-card-default uk-card-hover">
-								<div class="uk-card-media-top uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
-									<img class="uk-border-rounded" src="img/large_mberne.jpg" alt="">
-									<div class="uk-position-center">
-										<span class="uk-transition-fade" uk-icon="icon: facebook; ratio: 4"></span>
-									</div>
-								</div>
-								<div class="uk-card-body">
-									<h3 class="uk-card-title">Manon Berne</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="uk-border-rounded uk-card uk-card-small uk-card-default uk-card-hover">
-								<div class="uk-card-media-top uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
-									<img class="uk-border-rounded" src="img/large_scros.jpg" alt="">
-									<div class="uk-position-center">
-										<span class="uk-transition-fade" uk-icon="icon: facebook; ratio: 4"></span>
-									</div>
-								</div>
-								<div class="uk-card-body">
-									<h3 class="uk-card-title">Simon Cros</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-								</div>
-							</div>
-						</li>
-					</ul>
-					<a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-					<a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
-				</div>
-				<ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
-			</div>
-		<section class="container" id="Olympiades">
-			<div class="row mt-5">
-				<div class="col-12 d-flex justify-content-center">
-					<h1>Nos <span class="text-primary">Partenaires </span></h1>
-				</div>
-			</div>
-			<div>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolorem exercitationem illum ipsa ipsum laboriosam maiores perferendis quas temporibus vel. Ad commodi consequuntur dolorem, ducimus maxime possimus quia repudiandae rerum?
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolorum, facere? Blanditiis cumque deleniti eos error facilis, fuga hic illum maiores obcaecati perspiciatis quos ratione rem repudiandae sunt vel voluptatum.
-			</div>
-		</section>
-		<section class="container" id="Programs">
-			<div class="row mt-5">
-				<div class="col-12 d-flex justify-content-center">
-					<h1>Notre <span class="text-primary">Programme </span></h1>
-				</div>
-				<div>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium cupiditate distinctio dolore eligendi labore laudantium, necessitatibus officiis quibusdam! Adipisci aliquid expedita inventore maxime minima nisi pariatur ratione tempora tenetur voluptas!
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, necessitatibus voluptas? Accusamus ad, animi commodi consequatur corporis cumque distinctio expedita id laborum minus molestias odio, repudiandae totam unde voluptates voluptatibus?
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sapiente tenetur voluptatum! Aliquam, animi blanditiis eos et ex inventore molestiae nam nisi quaerat qui quo quos sed soluta sunt tempora.
-				</div>
-			</div>
-		</section>
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+  <a class="navbar-brand" href="#">BDE Leaks</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+          aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#Home">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Members">Membres</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Olympiades">Olympiades</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Event">Évènements</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Program">Programme</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div id="slides" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#slides" data-slide-to="0" class="active"></li>
+    <li data-target="#slides" data-slide-to="1"></li>
+    <li data-target="#slides" data-slide-to="2"></li>
+    <li data-target="#slides" data-slide-to="3"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <a href="#Olympiades">
+        <picture>
+          <source srcset="./img/Olympiade.png"
+                  media="(max-width: 400px)">
+          <img class="w-100" src="./img/Olympiade_large.png" alt="First slide"/>
+        </picture>
+      </a>
+      <div class="carousel-caption d-none d-md-block">
+        <!--<h5>...</h5>-->
+        <!--<p>...</p>-->
+      </div>
+    </div>
+    <div class="carousel-item">
+      <a href="#Event">
+        <picture>
+          <source srcset="./img/Event.png"
+                  media="(max-width: 400px)">
+          <img class="w-100" src="./img/Event_large.png" alt="First slide"/>
+        </picture>
+      </a>
+      <div class="carousel-caption d-none d-md-block">
+        <!--<h5>...</h5>-->
+        <!--<p>...</p>-->
+      </div>
+    </div>
+    <div class="carousel-item">
+      <a href="#Members">
+        <picture>
+          <source srcset="./img/Members.png"
+                  media="(max-width: 400px)">
+          <img class="w-100" src="./img/Members_large.png" alt="First slide"/>
+        </picture>
+      </a>
+      <div class="carousel-caption d-none d-md-block">
+        <!--<h5>...</h5>-->
+        <!--<p>...</p>-->
+      </div>
+    </div>
+    <div class="carousel-item">
+      <a href="#Programs">
+        <picture>
+          <source srcset="./img/Programs.png"
+                  media="(max-width: 400px)">
+          <img class="w-100" src="./img/Programs_large.png" alt="First slide"/>
+        </picture>
+      </a>
+      <div class="carousel-caption d-none d-md-block">
+        <!--<h5>...</h5>-->
+        <!--<p>...</p>-->
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#slides" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<section class="container" id="Event">
+  <div class="row mt-5">
+    <div class="col-12 d-flex justify-content-center">
+      <h1>Nos <span class="text-primary">Évènements </span></h1>
+    </div>
+  </div>
+  <div class="timeline">
+    <div class="contain left">
+      <div class="content">
+        <!--						<h2>29 Janvier</h2>-->
+        <!--						<p>Among Us</p>-->
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+          <div class="uk-card-media-left uk-cover-container uk-border-rounded">
+            <img src="./img/among_us.png" alt="" uk-cover>
+            <canvas width="600" height="400"></canvas>
+          </div>
+          <div>
+            <div class="uk-card-body">
+              <h3 class="uk-card-title">Media Left</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contain right">
+      <div class="content">
+        <!--						<h2>27 Janvier</h2>-->
+        <!--						<p>Tournoi Smash</p>-->
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+          <div class="uk-flex-last@s uk-card-media-right uk-cover-container uk-border-rounded">
+            <img src="./img/smash.gif" alt="" uk-cover>
+            <canvas width="600" height="400"></canvas>
+          </div>
+          <div>
+            <div class="uk-card-body">
+              <h3 class="uk-card-title">Media Right</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contain left">
+      <div class="content">
+        <!--						<h2>27 Janvier</h2>-->
+        <!--						<p>Tournoi Echec</p>-->
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+          <div class="uk-card-media-left uk-cover-container uk-border-rounded">
+            <img src="./img/chess.gif" alt="" uk-cover>
+            <canvas width="600" height="400"></canvas>
+          </div>
+          <div>
+            <div class="uk-card-body">
+              <h3 class="uk-card-title">Media Left</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="container" id="Members">
+  <div class="row mt-5">
+    <div class="col-12 d-flex justify-content-center">
+      <h1>Nos <span class="text-primary">Membres </span></h1>
+    </div>
+  </div>
+  <div class="uk-slider-container-offset" uk-slider>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+      <ul class="uk-slider-items uk-child-width-1-4@s uk-grid">
+        <li>
+          <div class="uk-border-rounded uk-card uk-card-small uk-card-default uk-card-hover">
+            <div class="uk-card-media-top uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+              <img class="uk-border-rounded" src="img/large_coscialp2.jpg" alt="">
+              <div class="uk-position-center">
+                <span class="uk-transition-fade" uk-icon="icon: facebook; ratio: 4"></span>
+              </div>
+            </div>
+            <div class="uk-card-body">
+              <h3 class="uk-card-title">Corentin Scialpi</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="uk-border-rounded uk-card uk-card-small uk-card-default uk-card-hover">
+            <div class="uk-card-media-top uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+              <div class="uk-card-media-top uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+                <img class="uk-border-rounded" src="img/large_ldenis.jpg" alt="">
+                <div class="uk-position-center">
+                  <span class="uk-transition-fade" uk-icon="icon: facebook; ratio: 4"></span>
+                </div>
+              </div>
+            </div>
+            <div class="uk-card-body">
+              <h3 class="uk-card-title">Laurine Denis</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="uk-border-rounded uk-card uk-card-small uk-card-default uk-card-hover">
+            <div class="uk-card-media-top uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+              <img class="uk-border-rounded" src="img/large_lfourmau.jpg" alt="">
+              <div class="uk-position-center">
+                <span class="uk-transition-fade" uk-icon="icon: facebook; ratio: 4"></span>
+              </div>
+            </div>
+            <div class="uk-card-body">
+              <h3 class="uk-card-title">Loic Fourmau</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="uk-border-rounded uk-card uk-card-small uk-card-default uk-card-hover">
+            <div class="uk-card-media-top uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+              <img class="uk-border-rounded" src="img/large_mberne.jpg" alt="">
+              <div class="uk-position-center">
+                <span class="uk-transition-fade" uk-icon="icon: facebook; ratio: 4"></span>
+              </div>
+            </div>
+            <div class="uk-card-body">
+              <h3 class="uk-card-title">Manon Berne</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="uk-border-rounded uk-card uk-card-small uk-card-default uk-card-hover">
+            <div class="uk-card-media-top uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+              <img class="uk-border-rounded" src="img/large_scros.jpg" alt="">
+              <div class="uk-position-center">
+                <span class="uk-transition-fade" uk-icon="icon: facebook; ratio: 4"></span>
+              </div>
+            </div>
+            <div class="uk-card-body">
+              <h3 class="uk-card-title">Simon Cros</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+         uk-slider-item="previous"></a>
+      <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+         uk-slider-item="next"></a>
+    </div>
+    <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+  </div>
+</section>
+<section class="container" id="Olympiades">
+  <div class="row mt-5">
+    <div class="col-12 d-flex justify-content-center">
+      <h1>Nos <span class="text-primary">Partenaires </span></h1>
+    </div>
+  </div>
+  <div>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolorem exercitationem illum ipsa ipsum laboriosam
+    maiores perferendis quas temporibus vel. Ad commodi consequuntur dolorem, ducimus maxime possimus quia repudiandae
+    rerum?
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolorum, facere? Blanditiis cumque deleniti
+    eos error facilis, fuga hic illum maiores obcaecati perspiciatis quos ratione rem repudiandae sunt vel voluptatum.
+  </div>
+</section>
+<section class="container" id="Programs">
+  <div class="row mt-5">
+    <div class="col-12 d-flex justify-content-center">
+      <h1>Notre <span class="text-primary">Programme </span></h1>
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium cupiditate distinctio dolore eligendi
+      labore laudantium, necessitatibus officiis quibusdam! Adipisci aliquid expedita inventore maxime minima nisi
+      pariatur ratione tempora tenetur voluptas!
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, necessitatibus voluptas? Accusamus ad,
+      animi commodi consequatur corporis cumque distinctio expedita id laborum minus molestias odio, repudiandae totam
+      unde voluptates voluptatibus?
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sapiente tenetur voluptatum! Aliquam, animi
+      blanditiis eos et ex inventore molestiae nam nisi quaerat qui quo quos sed soluta sunt tempora.
+    </div>
+  </div>
+</section>
+<footer>
+  <p style="text-align: center; margin-bottom: 0;">Made with &#10084 and &#9749 by</p>
+  <div class="row" style="margin-right: 0; margin-top: 20px">
+    <div class="col-4 footer-col">
+      <h5 style="color: #f9f9f9">Nous contacter</h5>
+      <hr>
+      <p>
+        <a href="https://www.instagram.com/bde_leaks/?hl=fr" target="_blank" class="no_style">
+          <i class="fab fa-instagram"></i> Suivez nous sur instagram
+        </a>
+      </p>
+      <p>
+        <a href="https://discord.gg/crpzfWWuHU" target="_blank" class="no_style">
+          <i class="fab fa-discord"></i> Rejoignez nous sur Discord
+        </a>
+      </p>
+    </div>
+    <div class="col-4">
+      <img src="img/Logo.png" style="height: 150px">
+    </div>
+    <div class="col-4 footer-col">
+      <h5 style="color: #f9f9f9">Ils nous soutiennent</h5>
+      <hr>
+      <p style="text-decoration: line-through">BDE 404</p>
+      <p><a href="https://e2r5-corp.github.io/E2R5/" target="_blank" class="no_style">E2R5</a></p>
+      <p><a href="https://42nice.fr" target="_blank" class="no_style">42 Nice</a></p>
+    </div>
+  </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+<script src="./js/bootstrap.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
 </body>
 </html>

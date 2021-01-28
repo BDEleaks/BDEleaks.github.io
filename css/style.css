@@ -227,19 +227,23 @@ body {
 
 footer {
 	left: 0;
-	/*width: 100%;*/
+	bottom: 0;
+	width: 100%;
 	text-align: center;
 	background-color: #1C2029;
 	padding-top: 25px;
 	color: #f7f7f7;
-}
-
-.footer-col {
-	margin-left: 10px;
+	padding-bottom: 10px;
+	margin-top: 25px;
 }
 
 .no_style:hover {
 	text-decoration: none;
+	color: #f9f9f9;
+}
+
+.no_style {
+	color: #f9f9f9;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
