@@ -184,7 +184,7 @@ footer {
 	margin-top: 30px;
 	min-height: 400px;
   }
-  
+
   /* Slides */
   .mySlides {
 	display: none;
@@ -193,7 +193,7 @@ footer {
 	text-align: center;
 	color: white;
   }
-  
+
   /* Next & previous buttons */
   .previous, .nextt {
 	cursor: pointer;
@@ -208,28 +208,28 @@ footer {
 	border-radius: 0 3px 3px 0;
 	user-select: none;
   }
-  
+
   /* Position the "next button" to the right */
   .nextt {
 	position: absolute;
 	right: 0;
 	border-radius: 3px 0 0 3px;
   }
-  
+
   /* On hover, add a black background color with a little bit see-through */
   .previous:hover, .nextt:hover {
 	background-color: #c41a14;
 	opacity: 0.9;
 	color: white;
   }
-  
+
   /* The dot/bullet/indicator container */
   .dot-container {
 	text-align: center;
 	padding: 20px;
 	background: rgb(53, 53, 53);
   }
-  
+
   /* The dots/bullets/indicators */
   .dot {
 	cursor: pointer;
@@ -241,7 +241,7 @@ footer {
 	display: inline-block;
 	transition: background-color 0.6s ease;
   }
-  
+
   /* Add a background color to the active dot/circle */
   .active2, .dot:hover {
 	background-color: #c41a14;
@@ -266,3 +266,6 @@ footer {
 {
 	background-color:#343a40ff!important;
 }
+.sep {
+	text-decoration: overline #1c2029;
+  }
