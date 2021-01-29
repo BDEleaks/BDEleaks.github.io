@@ -191,7 +191,7 @@ footer {
   }
   
   /* Next & previous buttons */
-  .prev, .next {
+  .previous, .nextt {
 	cursor: pointer;
 	position: absolute;
 	top: 50%;
@@ -206,14 +206,14 @@ footer {
   }
   
   /* Position the "next button" to the right */
-  .next {
+  .nextt {
 	position: absolute;
 	right: 0;
 	border-radius: 3px 0 0 3px;
   }
   
   /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
+  .previous:hover, .nextt:hover {
 	background-color: #c41a14;
 	opacity: 0.9;
 	color: white;
@@ -239,7 +239,7 @@ footer {
   }
   
   /* Add a background color to the active dot/circle */
-  .active, .dot:hover {
+  .active2, .dot:hover {
 	background-color: #c41a14;
 	opacity: 0.7;
   }
