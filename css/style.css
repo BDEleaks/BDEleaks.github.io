@@ -265,3 +265,7 @@ footer {
 .sep {
 	text-decoration: overline #1c2029;
   }
+
+#slides , #slides *{
+	max-height: 95vh;
+}
